@@ -11,7 +11,7 @@ public class Main {
 //				{24.482986,118.320937},
 //				};
 		
-		int place_mount = 1000000;
+		int place_mount = 10000;
 		ArrayList<Place> point_arr = Point.makePlace(place_mount);
 		System.out.println("Your have "+place_mount+" places");
 		System.out.println("-----------------------------------------------------");

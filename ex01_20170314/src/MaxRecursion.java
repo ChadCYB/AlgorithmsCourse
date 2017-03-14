@@ -1,5 +1,3 @@
-package ex01_20170314;
-
 import java.util.Arrays;
 
 public class MaxRecursion {
