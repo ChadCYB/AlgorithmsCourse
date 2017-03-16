@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
-public class Point {
+public class Map {
 	
-	public Point(){	}
+	public Map(){	}
 	
 	public static double dist(Place p1, Place p2){
 		double x1,x2,y1,y2;
@@ -33,6 +33,14 @@ public class Point {
 		return p_arr;
 	}
 	
+	public static ArrayList<Place> addPlace(Object[][] obj_arr) {
+		ArrayList<Place> p_arr = new ArrayList<>();
+		for(Object[] obj: obj_arr){
+			p_arr.add(new Place((String)obj[0], (double)obj[1] , (double)obj[2]));
+		}
+		return p_arr;
+	}
+	
 	public static boolean isSame(Place p1, Place p2){
 		return (p1.getLat()==p2.getLat() && p1.getLon()==p2.getLon());
 	}
@@ -46,8 +54,8 @@ public class Point {
 			Place p1 = arr.get(i);
 			for(int j=0 ; j<arr_len ; j++){
 				Place p2 = arr.get(j);
-				if(i!=j && Point.dist(p1,p2)<min){
-					min = Point.dist(p1,p2);
+				if(i!=j && Map.dist(p1,p2)<min){
+					min = Map.dist(p1,p2);
 					result[0] = p1;
 					result[1] = p2;
 				}
