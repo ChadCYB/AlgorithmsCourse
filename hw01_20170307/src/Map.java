@@ -25,7 +25,7 @@ public class Map {
 	public static ArrayList<Place> makePlace(long mount){
 		ArrayList<Place> p_arr = new ArrayList<>();
 		long count = 0;
-		while(++count < mount){
+		while(++count <= mount){
 			double lon = Math.random()*4+118; //118-122
 			double lat = Math.random()*3+23;  //24-26
 			p_arr.add(new Place("p"+count, lat ,lon));
