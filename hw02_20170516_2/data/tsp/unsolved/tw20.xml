@@ -1,0 +1,210 @@
+<TravelingSalesmanTour id="1">
+  <id>0</id>
+  <name>TaiwanTravelProblem</name>
+  <distanceType>AIR_DISTANCE</distanceType>
+  <distanceUnitOfMeasurement>distance</distanceUnitOfMeasurement>
+  <locationList id="2">
+    <TspAirLocation id="3">
+      <id>1</id>
+      <name>八卦山</name>
+      <latitude>24.015465</latitude>
+      <longitude>120.115154</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="4">
+      <id>2</id>
+      <name>古寧頭戰史館</name>
+      <latitude>24.482986</latitude>
+      <longitude>118.320937</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="5">
+      <id>3</id>
+      <name>國立自然科學博物館</name>
+      <latitude>24.156744</latitude>
+      <longitude>120.665553</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="6">
+      <id>4</id>
+      <name>勝興車站</name>
+      <latitude>24.388101</latitude>
+      <longitude>120.782056</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="7">
+      <id>5</id>
+      <name>阿里山</name>
+      <latitude>23.508918</latitude>
+      <longitude>120.802188</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="8">
+      <id>6</id>
+      <name>愛河</name>
+      <latitude>22.652549</latitude>
+      <longitude>120.302710</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="9">
+      <id>7</id>
+      <name>奇美博物館</name>
+      <latitude>22.934540</latitude>
+      <longitude>120.226017</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="10">
+      <id>8</id>
+      <name>跨海大橋</name>
+      <latitude>23.651176</latitude>
+      <longitude>119.548552</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="11">
+      <id>9</id>
+      <name>北港朝天宮</name>
+      <latitude>23.567659</latitude>
+      <longitude>120.304667</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="12">
+      <id>10</id>
+      <name>國立臺灣史前文化博物館</name>
+      <latitude>22.760701</latitude>
+      <longitude>121.091366</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="13">
+      <id>11</id>
+      <name>太魯閣峽谷</name>
+      <latitude>24.158726</latitude>
+      <longitude>121.621630</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="14">
+      <id>12</id>
+      <name>羅東夜市</name>
+      <latitude>24.676870</latitude>
+      <longitude>121.769641</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="15">
+      <id>13</id>
+      <name>九份老街</name>
+      <latitude>25.110410</latitude>
+      <longitude>121.845793</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="16">
+      <id>14</id>
+      <name>基隆港</name>
+      <latitude>25.138645</latitude>
+      <longitude>121.750666</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="17">
+      <id>15</id>
+      <name>石門水庫</name>
+      <latitude>24.812305</latitude>
+      <longitude>121.245784</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="18">
+      <id>16</id>
+      <name>合歡山森林遊樂區</name>
+      <latitude>24.181390</latitude>
+      <longitude>121.281405</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="19">
+      <id>17</id>
+      <name>六福村主題遊樂園</name>
+      <latitude>24.825177</latitude>
+      <longitude>121.180457</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="20">
+      <id>18</id>
+      <name>一零一大樓</name>
+      <latitude>25.033976</latitude>
+      <longitude>121.564756</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="21">
+      <id>19</id>
+      <name>城隍廟</name>
+      <latitude>24.804502</latitude>
+      <longitude>120.965475</longitude>
+    </TspAirLocation>
+    <TspAirLocation id="22">
+      <id>20</id>
+      <name>國立海洋生物博物館</name>
+      <latitude>22.046018</latitude>
+      <longitude>120.698904</longitude>
+    </TspAirLocation>
+  </locationList>
+  <domicile id="43">
+    <id>1</id>
+    <location class="TspAirLocation" reference="3"/>
+  </domicile>
+  <visitList id="44">
+    <Visit id="45">
+      <id>2</id>
+      <location class="TspAirLocation" reference="4"/>
+    </Visit>
+    <Visit id="46">
+      <id>3</id>
+      <location class="TspAirLocation" reference="5"/>
+    </Visit>
+    <Visit id="47">
+      <id>4</id>
+      <location class="TspAirLocation" reference="6"/>
+    </Visit>
+    <Visit id="48">
+      <id>5</id>
+      <location class="TspAirLocation" reference="7"/>
+    </Visit>
+    <Visit id="49">
+      <id>6</id>
+      <location class="TspAirLocation" reference="8"/>
+    </Visit>
+    <Visit id="50">
+      <id>7</id>
+      <location class="TspAirLocation" reference="9"/>
+    </Visit>
+    <Visit id="51">
+      <id>8</id>
+      <location class="TspAirLocation" reference="10"/>
+    </Visit>
+    <Visit id="52">
+      <id>9</id>
+      <location class="TspAirLocation" reference="11"/>
+    </Visit>
+    <Visit id="53">
+      <id>10</id>
+      <location class="TspAirLocation" reference="12"/>
+    </Visit>
+    <Visit id="54">
+      <id>11</id>
+      <location class="TspAirLocation" reference="13"/>
+    </Visit>
+    <Visit id="55">
+      <id>12</id>
+      <location class="TspAirLocation" reference="14"/>
+    </Visit>
+    <Visit id="56">
+      <id>13</id>
+      <location class="TspAirLocation" reference="15"/>
+    </Visit>
+    <Visit id="57">
+      <id>14</id>
+      <location class="TspAirLocation" reference="16"/>
+    </Visit>
+    <Visit id="58">
+      <id>15</id>
+      <location class="TspAirLocation" reference="17"/>
+    </Visit>
+    <Visit id="59">
+      <id>16</id>
+      <location class="TspAirLocation" reference="18"/>
+    </Visit>
+    <Visit id="60">
+      <id>17</id>
+      <location class="TspAirLocation" reference="19"/>
+    </Visit>
+    <Visit id="61">
+      <id>18</id>
+      <location class="TspAirLocation" reference="20"/>
+    </Visit>
+    <Visit id="62">
+      <id>19</id>
+      <location class="TspAirLocation" reference="21"/>
+    </Visit>
+    <Visit id="63">
+      <id>20</id>
+      <location class="TspAirLocation" reference="22"/>
+    </Visit>
+  </visitList>
+</TravelingSalesmanTour>
