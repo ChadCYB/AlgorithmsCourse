@@ -14,8 +14,9 @@ public class Main {
 				int j = i+b;
 				N[i][j] = Integer.MAX_VALUE;
 				for(int k=i ; k<j ; k++){
-					System.out.println(N[i][j]+" vs "+(N[i][k]+N[k+1][j]+d[i]*d[k+1]*d[j+1]));
+					System.out.println("M["+i+"]:["+j+"]:["+k+"] = "+N[i][j]+" vs "+(N[i][k]+N[k+1][j]+d[i]*d[k+1]*d[j+1]));
 					N[i][j] = Math.min(N[i][j], N[i][k]+N[k+1][j]+d[i]*d[k+1]*d[j+1]);
+					
 				}
 			}
 		}

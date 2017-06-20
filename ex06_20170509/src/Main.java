@@ -2,7 +2,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		String X = "BDCABA", Y = "ABCBDAB";
+		String X = "CGATAATTGA", Y = "GTCTAATA";
 		int m = X.length(), n = Y.length();
 		int[][] c = new int[m+1][n+1];
 		String[][] b= new String[m+1][n+1];
